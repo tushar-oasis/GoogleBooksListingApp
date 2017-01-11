@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_book"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oasis.googlebookslistingapp.BookActivity">
+
+
+    <ListView
+        android:id="@+id/book_list"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1dp"/>
+
+    <ProgressBar android:id="@+id/loading_indicator"
+                 style="@style/Widget.AppCompat.ProgressBar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"/>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:textSize="16sp"
+              android:visibility="gone"
+              android:id="@+id/empty_view"/>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="50dp"
+          android:background="@color/grey_1"
+          android:visibility="gone"
+          android:id="@+id/edit_screen_overlay"
+    />
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/white"
+                    android:id="@+id/top_bar">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_search"
+            android:id="@+id/search_button"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/search_button"
+            android:layout_centerVertical="true"
+            android:hint="Search for author"
+            android:textSize="16sp"
+            android:background="@null"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/search_edit_text"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_done"
+            android:id="@+id/search_edit_done_button"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

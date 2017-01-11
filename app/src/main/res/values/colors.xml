@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="translucent">#80000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="app_blue">#31aef5</color>
+    <color name="grey_1">#B3000000</color>
+    <color name="grey_2">#666666</color>
+    <color name="grey_3">#999999</color>
+    <color name="grey_5">#e1e1e1</color>
+    <color name="grey_6">#f3f3f3</color>
+    <color name="grey_7">#636363</color>
+    <color name="transparent">#00000000</color>
+    <color name="fb_blue">#3b5998</color>
+    <color name="translucent_white">#ccffffff</color>
+    <color name="translucent_white_2">#ddffffff</color>
+    <color name="opaque_black">#88000000</color>
+    <color name="grey_4">#bbbbbb</color>
+    <color name="transparent_white">#30ffffff</color>
+    <color name="textColorTitle">#2B3D4D</color>
+    <color name="textColorPublishedDate">#B4BAC0</color>
+</resources>
