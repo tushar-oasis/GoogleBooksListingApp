@@ -83,7 +83,6 @@ public class BookActivity extends AppCompatActivity implements View.OnClickListe
         ItemSelectedCallback itemSelectedCallback = new ItemSelectedCallback() {
             @Override
             public void onItemSelected(int position) {
-                Log.d("tushar", "in onitemclick()");
                 Book currentBook = bookAdapter.getItem(position);
                 Uri bookUri = Uri.parse(currentBook.getInfoUrl());
                 Intent websiteIntent = new Intent(Intent.ACTION_VIEW, bookUri);

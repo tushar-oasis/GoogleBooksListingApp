@@ -1,7 +1,7 @@
 package com.oasis.googlebookslistingapp;
 
 /**
- * Created by Oasis on 11-01-2017.
+ * Created by tushar on 11-01-2017.
  */
 
 public interface AppConstants {
